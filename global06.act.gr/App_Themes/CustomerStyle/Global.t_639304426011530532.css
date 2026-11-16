@@ -1,0 +1,409 @@
+.left-filter{
+border:4px inset #074ca9;
+ border-radius: 0px 15px 50px 30px;
+
+
+}
+
+.left-filter h3{
+border-radius: 0px;
+background-color:#074ca9;
+}
+#MyCar{
+display:none;
+}
+
+.left-filter{
+
+border-radius:4px !important;
+
+}
+
+.btn-primary{
+background:#084caf;
+border-color:#084caf;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary{
+background:#545454 ;
+border-color: #545454 ;
+}
+
+#header-area
+{
+/* background-image: url(""); */
+    background: white !important;
+}
+
+
+.header-top{
+background:transparent;
+color:white;
+}
+
+.header-links li a:hover, 
+			.header-links li a:focus, 
+			.header-links li.active a{
+				background-color:#B50100 !important;
+				color:white;
+                                border-radius: 10px;
+			}
+.header-top .open .btn-link{
+   color:#545454;
+}
+
+.header-links li a{
+color:black ;
+font-size:16px;
+}
+
+.welcome_user{
+color:#white ;
+font-size:16px;
+}
+
+.header-top .btn-link{
+color:white ;
+font-size:16px;
+}
+
+
+#main-menu .navbar-nav > li + li{
+
+}
+
+#main-menu .navbar-nav > li a{
+padding: 20px;
+text-align: center;
+font-size:18px;
+font-weight:bold;
+color:lightgray;
+
+}
+
+#main-menu .navbar-nav > li > a:hover, #main-menu .navbar-nav > li.open a
+{
+background: transparent !important;
+color:white;
+
+}
+
+#search .input-group .form-control{
+background:white  !important;
+color:#1A1A1F !important;
+}
+
+#search .input-group .btn
+{
+ background: -webkit-radial-gradient(white,#404040); 
+    background: -o-radial-gradient(white, #404040); 
+    background: -moz-radial-gradient(white,  #404040); 
+    background: radial-gradient(white, #404040); 
+
+
+color:gray !important;
+}
+
+.copyright{
+background:transparent;
+}
+
+#cart .dropdown-menu{
+background:#1A1A1F ;
+}
+
+#cart .dropdown-menu table.hcart td, .line-bottom{
+border-bottom: 1px solid #FFFFFF;
+}
+
+.line-top, .btn-block1{
+border-top: 1px solid #FFFFFF;
+}
+
+#cloned_search .input-group .form-control {
+background:white  !important;
+border-color:#1A1A1F  !important;
+color:#1A1A1F !important;
+}
+
+#cloned_search .input-group .btn
+{
+background:#1A1A1F  !important;
+border-color:#1A1A1F  !important;
+color:white !important;
+}
+
+.navbar-toggle{
+border-color: white;
+border-radius: 1px;
+color: white;
+}
+
+.fa-bars{
+color:white;
+}
+
+
+#cart .btn-block1 a:hover, #cart .btn-block1 a + a
+{
+background:#545454;
+color:white !important;
+}
+
+#cart .btn-block1 a, #cart .btn-block1 a + a:hover{
+color:#545454 ;
+}
+
+
+#navbaridi .navbar-toggle{
+border-color: black;
+border-radius: 1px;
+color: black;
+}
+
+#navbaridi .fa-bars{
+color:black;
+}
+
+.tabs-panel .nav-tabs > li.active, .tabs-panel .nav-tabs > li.active > a{
+background:#1A1A1F  !important;
+}
+
+.tabs-panel .nav-tabs{
+border-bottom:4px solid #1A1A1F  !important;
+}
+
+
+.griditemst{
+background: rgba(46, 49, 146, 0.15);
+box-shadow:none;
+}
+
+
+.footer-links{
+background:transparent;
+}
+
+#footer-area{
+
+background-color: black;
+}
+
+.filter-box{
+padding-bottom:0px;
+padding-top:0px;
+}
+
+.barcolori {
+background: gray  !important;
+border-color: #1A1A1F  !important;
+}
+
+a{
+color:#1A1A1F;
+}
+
+a:hover{
+color:#545454 ;
+}
+
+#cart .btn{
+background:black  !important;
+
+}
+
+#cart .btn .fa-shopping-cart{
+background:transparent !important;
+color:white !important;
+}
+
+#LabelInfo{
+color:white !important;
+font-weight:normal !important;
+font-size: 18px !important;
+}
+
+#cart .btn i.fa-caret-down{
+color:white !important;
+}
+
+.numberbaskst{
+color:#1A1A1F !important;
+display:none;
+}
+
+.footer-links .title {
+font-size: 18px;
+color: #fbec25;
+margin-bottom: 0px;
+font-family: 'Open Sans Condensed', sans-serif;
+font-weight: 300;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus{
+/* background-color:#1A1A1F; */
+border-color:#B50100;
+background-image: linear-gradient(to bottom,#B50100 0,#9D0B0B 100%) !important;
+}
+
+#main-menu{
+/* background-color:#B50100; */
+background-image: linear-gradient(to bottom,#B50100 0,#9D0B0B 100%) !important;
+}
+
+#return-to-top{
+background:gray !important;
+}
+
+#return-to-top:hover{
+background:gray !important;
+}
+
+.botsel .jqTransformSelectWrapper{
+background-color:#1A1A1F;
+}
+
+.botsel .jqTransformSelectWrapper ul a:hover{
+background: #1A1A1F;
+color:white;
+}
+
+.blue-box{
+background:rgba(46, 49, 146, 0.15);
+}
+
+#results_wrapper .col-md-12 .col-xs-12 .h4 a
+{
+   pointer-events: none;
+   cursor: default;
+}
+
+#results_wrapper .col-md-12 .col-xs-12 .col-xs-12
+{
+   display:none;
+}
+
+.SuppAvail0{
+background-color: #FF0000;
+color:white;
+}
+
+.SuppAvail1{
+
+background-color: #00FF00;
+}
+
+.form-group input[type='text'], .left-filter .form-group select {
+    font-size: 14px !important;
+}
+
+
+#login-form-wrapper{
+
+background-image: url("../../images/loginback.jpg") !important;
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    height: 560px;
+
+}
+
+#login-form{
+margin-top:45px !important;
+
+}
+
+
+#logidi
+{
+border-radius:4px;
+       background-color: rgba(255, 255, 255, 0.74) !important;
+}
+
+#header-area
+{
+margin-bottom:0px !important;
+}
+
+.lightboxappl, .lightboxrefs, .codecomesfrom, .viscode{
+display:none !important;
+}
+
+
+.contcss{
+padding-left:0px;
+padding-right:0px;
+  
+    background-position: center center;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+#ctl00_topattr1 .container .col-sm-8{
+padding-left:0px;
+padding-right:0px;
+}
+
+#ctl00_topattr1 .container .col-sm-4{
+padding-left:0px;
+padding-right:0px;
+}
+
+
+.panel-body .active a{
+
+color:red !important;
+}
+
+#ctl00_leftPlaceHolder_iPages {
+display:none;
+}
+
+#dResults {
+background:white;
+}
+
+#ctl00_WorkShopDescr {
+display:none;
+}
+
+#grigTires {
+display:none;
+}
+
+#txtSearch {
+height:46px;
+}
+
+#searchEngine  {
+display:none;
+}
+
+#ctl00_centerPlaceHolder_coupon_box  {
+display:none;
+}
+
+#ctl00_centerPlaceHolder_HelpFrame {
+margin:40px;
+}
+
+#main-menu {
+z-index:100;
+}
+
+.cgvPartNo, .cgvDescription {
+pointer-events: none;
+cursor: default;
+}
+
+#btnWishlistAdd  {
+display:none;
+}
+
+#ctl00_LabelWelcome  {
+color:black;
+}
+
+#ctl00_userInfoPane  {
+color:black;
+}

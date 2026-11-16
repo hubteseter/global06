@@ -1,0 +1,1410 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="download_date" content="2026-11-16T14:16:33.736Z"/><title>
+	new 
+</title><meta name="viewport" content="width=device-width, initial-scale=1"><link href="Content/css/bootstrap.min.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/css/fonts-googleapis-roboto.t_1.0.6094.19668.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/css/jquery.bootstrap-touchspin.min.t_1.0.6094.19668.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/style.t_1.0.6094.19668.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/responsive.t_1.0.6094.19668.css" rel="stylesheet" type="text/css"><link href="../_external/fonts.googleapis.com/css.family_Roboto_Condensed_300italic_400italic_700italic_400_300_700.css" rel="stylesheet" type="text/css"><link href="../_external/fonts.googleapis.com/css.family_Open_Sans_300italic_400italic_600italic_700italic_800italic_400_300_600_700_800.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/font-awesome-4.3.0/css/font-awesome.min.t_1.0.6094.19668.css" rel="stylesheet" type="text/css"><link href="App_Themes/Boot_theme/slick/slick.t_1.0.6094.19668.css" rel="stylesheet" type="text/css">
+
+    
+    <script type="text/javascript" src="scripting/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="App_Themes/Boot_theme/scripts/jquery-1.11.1.min.js"></script>
+    
+    <script type="text/javascript" src="App_Themes/Boot_theme/scripts/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="scripting/jquery-ui.min.js"></script>
+    <script src="Scripts/bootstrap.min.js" type="text/javascript"></script>
+    <script src="Scripts/bootbox.min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="APP_themes/classic/galleria.classic.t_1.0.6094.19668.css">
+
+    <style type="text/css">
+        .dropdown-header {
+            word-wrap: break-word;
+            white-space: pre-wrap;
+        }
+    </style>
+
+    <!--Style Newsletter-->
+    <link href="../_external/cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+
+	<link rel="stylesheet" href="http://global06.act.gr/App_Themes/Theme-Wide/SelectCar2.css">
+	<link rel="stylesheet" href="App_Themes/Theme-Wide/jquery.lightbox-0.5.css">
+    <link rel="stylesheet" href="App_Themes/Boot_theme/css/select2.min.css">
+    <link rel="stylesheet" href="scripting/colorbox/colorbox-master/example5/colorbox.css" type="text/css">
+    <link rel="stylesheet" href="App_Themes/Boot_theme/css/B_PartsTcd2.css">
+    <link rel="stylesheet" href="App_Themes/Boot_theme/css/select2.min.css">
+
+    <script type="text/javascript" src="App_Themes/Boot_theme/scripts/Grid.js"></script>
+    <style type="text/css">
+            #offerimage1 {
+            display:none;
+            width:100%;
+        }
+             #grigTires {
+            border: 1px solid rgba(255, 255, 255, 0);
+           text-align:center;
+             background-color: #ffffff;
+           
+            
+        }
+        #tireDimensions {
+                margin-top: 20px;
+        height:90px;        
+         background: url(/Company/Images/tire_dim.png);
+            background-size: 100%;
+    background-repeat: no-repeat;
+         }
+
+        #grigTires .input-group {
+            margin-top: 20px;
+           padding:0px 18px;
+        }
+
+            #tireSearchLabel{
+                    display: block;
+    margin: 10px 10px;
+            font-size:16px!important;
+            font-weight:600!important;
+                background-color: #a09f9f;                  
+    color: white;
+    padding: 5px;
+            }
+
+        #ThOrderBy
+        {
+            float:left; 
+            margin-top:4px; 
+            padding-left:0px; 
+            padding-right:4px; 
+            font-size: 14px; 
+            font-weight: 600;
+        }
+
+                  /* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+  padding-top: 0px !important;
+  float:left;
+  margin-top:6px;
+  font-weight: bold;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #aaa;
+  background: #f8f8f8;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.3)
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #09ad7e;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bbb;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted blue;
+}
+
+        #accordion
+        {
+            padding:0px;
+            border:none;
+            margin-top:0px;
+        }
+
+        
+      #searchaccordion  { list-style-type: none; }
+       #searchaccordion ul { list-style-type: none; 
+                             padding:15px;
+       }
+  #searchaccordion     {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.searchaccordion  a {
+  color: #b63b4d;
+  text-decoration: none;
+}
+
+ .searchaccordion {
+  width: 100%;
+  max-width: 360px;
+  margin: 30px auto 20px;
+  background: #FFF;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.searchaccordion .link {
+  cursor: pointer;
+  display: block;
+  padding: 8px 15px 8px 42px;
+  color: #4D4D4D;
+  font-size: 14px;
+  font-weight: 700;
+  border-bottom: 1px solid #CCC;
+  position: relative;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.searchaccordion li:last-child .link { border-bottom: 0; }
+
+.searchaccordion li i {
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  font-size: 18px;
+  color: #595959;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.searchaccordion li i.fa-chevron-down {
+  right: 12px;
+  left: auto;
+  font-size: 16px;
+}
+
+.searchaccordion li.open .link { color: #4684c2; }
+
+.searchaccordion li.open i { color: #4684c2; }
+
+.searchaccordion li.open i.fa-chevron-down {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+/**
+ * submenu1
+ -----------------------------*/
+
+
+.submenu1 {
+  display: none;
+  background: #444359;
+  font-size: 14px;
+      padding-left: 25px;
+    padding-right: 25px;
+}
+
+.submenu1 li { border-bottom: 1px solid #4b4a5e; }
+
+.submenu1 a {
+  display: block;
+  text-decoration: none;
+  color: #d9d9d9;
+  padding: 12px;
+  padding-left: 42px;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;
+}
+
+.submenu1 a:hover {
+  background: #b63b4d;
+  color: #FFF;
+}
+       /*    style for tires tab       */
+
+        #grigTires {
+            border: 1px solid rgba(255, 255, 255, 0);
+           text-align:center;
+             background-color: #ffffff;
+             /*display:none;*/
+            
+        }
+        #tireDimensions {
+                margin-top: 20px;
+        height:90px;        
+         background: url(/Company/Images/tire_dim.png);
+            background-size: 100%;
+    background-repeat: no-repeat;
+         }
+
+        #grigTires .input-group {
+            margin-top: 20px;
+           padding:0px 18px;
+        }
+
+            #tireSearchLabel{
+                    display: block;
+    margin: 10px 10px;
+            font-size:16px!important;
+            font-weight:600!important;
+                background-color: #a09f9f;                  
+    color: white;
+    padding: 5px;
+            }
+
+        .cgvTechTab div {
+            font-size: 13px;
+            display: inline-block;
+            float: left;
+            margin: 2px;
+        }
+
+        .breadcrumb li {
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .patternTypePlaceholder label {
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .radiodisabled {
+            opacity: 0.6;
+        }
+
+        .ui-menu-item:hover .cellz { 
+    color: #f2f2f2!important;
+}
+
+    .ui-menu-item:hover { 
+    background-color: #00cccc;
+    color: #f2f2f2!important;
+}
+
+        .ui-menu-item:hover .cellz { 
+    color: #f2f2f2!important;
+}
+
+    
+
+        #ui-id-1 {
+          /*   display:block!important; */
+        }
+
+        .meteorjam {
+            padding: 0!important;
+            color: #999;
+            margin-bottom: 4px;
+            font-family: 'Roboto Condensed', Helvetica, Times New Roman, sans-serif;
+        }
+
+        .ui-widget-header {
+            border: 1px solid #aaaaaa;
+            background: none;
+            color: #fff;
+            font-weight: normal;
+            border: 2px solid #00cccc;
+            background-color: #00cccc;
+            font-size: 16px;
+        }
+
+        .bigdrop {
+            width: 400px !important;
+        }
+
+           .select2-container .select2-selection--single {
+    height:33px!important;
+    }
+
+    .select2-container--default .select2-selection--single .select2-selection__rendered {
+           line-height:33px!important;
+    }
+        .left-filter .form-group input[type='text'], .left-filter .form-group select {
+        font-size:14px;
+        }
+
+        .form-control {
+        
+    display: block;
+
+    height: 34px;
+    padding: 2px 6px;
+
+    line-height: 1.42857143;
+    color: #2f2f2f;
+        }
+
+        .form-group {
+    margin-bottom: 9px;
+}
+
+    </style>
+<link href="App_Themes/CustomerStyle/Global.t_639304426010041246.css" type="text/css" rel="stylesheet"><meta name="description" content="Page Description, , "><meta name="keywords" content="Page Keywords, "></head>
+<body>
+    
+    <form name="aspnetForm" method="post" action="." id="aspnetForm" class="form-horizontal">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTgwMzgxMjMxMGQYAQUeX19Db250cm9sc1JlcXVpcmVQb3N0QmFja0tleV9fFgYFGGN0bDAwJExvZ2luU3RhdHVzMiRjdGwwMQUYY3RsMDAkTG9naW5TdGF0dXMyJGN0bDAzBRNjdGwwMCRJbWFnZUJ1dHRvbkdSBRNjdGwwMCRJbWFnZUJ1dHRvbkdCBRNjdGwwMCRJbWFnZUJ1dHRvblJPBRNjdGwwMCRJbWFnZUJ1dHRvbkJHgqr9zszDp8yS2+7XU2rt1IOLNY6q7LiNaFNopvwL9pw=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['aspnetForm'];
+if (!theForm) {
+    theForm = document.aspnetForm;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="WebResource.axd.d_05vWBm3b-qe_anC62DtDxFy4uEZdCh_F51RBp-7aG9EtGFgZIUhZU9Jsr2kblONIASFa8ehFuBqSKppkBfOGu1tBG64kRVHCsGOWYzihaGs1_t_638472618268339811.js" type="text/javascript"></script>
+
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="9B480E28">
+	<input type="hidden" name="__PREVIOUSPAGE" id="__PREVIOUSPAGE" value="t6LiVRWCpn56UMN9eTBL0VZymhyc5fUk-FG-eozuGV34kJ-R4zn9QT9WFK-I3VLgkwBMF_o-2lToz9gQlY_r22wS-0Zbr7oyD7it1RdWnWg1">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACIQchIgwHTd80ZKJhk1EfdUYq72e5STutflxZIxF3o32MlXDBRVuOl3yLB9Zku2Po6AOHLS6/gYgMOYmidGcxZ625n2XhClYTXcuvoVd3VRlD5APqq2ebawWPAQ9U43fFxMyRICsbS9VWNKKa7gNOk3SUGHQ2038qFEqWm/BLCx92OGx6ucwqq5UoyxfLeSuuqzIsBw625cP1EDoCEpSufhD0liPh2kTPZTw5E81+/lzyZJH9OMqpfkf5WgpfW3YBewpORQhgpG9bGloIJ0c+wUqrhRANEBNjDPwVVcD7f/zoG1aTPmOVNZOgSQdYcASY+7sP1iC5o2DPzzpuL7d2X04+3WpZQNb82rzs2KnT3rh7qSvUZy8q0d2UrmRoXc1bCR2eQ2DWAbnMD+r4WUMJZfZ4ya0IlrwSIf9ohX6olsB7cStJVCb0Dl+qsaEJdbHaoEV2GLksP9xvGtc+/tZBwBYJCdsLdgvMhDbjQQF6kQgFut5K7Aj+yW63seXV6XZSsdQkzV7IjxoP94ITgeOjNl19ANzS+t1WJmdUvz7H5NV1wHn8Vv8O998e3nEXvYOUXU/aaOVwwnJkLb4QBbw0W1Lvu+TX37JePaQWJfKdcT10fu5a0oKBTNRfxAKeq1F9q0wCHIgZjjL5rLFW+sYwAtLZg3MyYHh+ZQ6hM66/OGISnFQYan2MMoBNb/CxNRuBMkbvOVfidfo85edUOvdcYAZ2aofjYUP9Ko++yt/pTW019/jMwB97+Sn9CYdC6we1Y=">
+</div>
+
+    <input type="hidden" id="PartCodeHidden">
+    <input type="hidden" id="WarehHidden">
+    <input type="hidden" id="quantityHidden">
+    <input type="hidden" id="IdQtyHidden">
+    <input type="hidden" id="IdOqHidden">
+    <input name="ctl00$txtSearchValue" type="hidden" id="ctl00_txtSearchValue" value="Cautare dupa cod piesa">
+    <input name="ctl00$textbox_email" type="hidden" id="textbox_email">
+    <input type="submit" name="ctl00$subscribe_button" value="Button" id="subscribe_button" style="display:none;">
+    <span id="ctl00_alert_empty" style="display:none;"></span>
+    <span id="ctl00_alert_wrong" style="display:none;"></span>
+    <span id="ctl00_alert_success" style="display:none;"></span>
+    <span id="ctl00_lblalertcode" style="display:none;">Va rugam sa introduceti codul de căutare !!</span>
+    <div id="BgFade" class="black_overlay"></div>
+
+    <input type="hidden" name="ctl00$SearchPageName" id="SearchPageName" value="/B_Body.aspx">
+
+    <input name="ctl00$changeEltrekkaAvailAvailable" type="hidden" id="changeEltrekkaAvailAvailable">
+    <input name="ctl00$changeEltrekkaAvailNotAvailable" type="hidden" id="changeEltrekkaAvailNotAvailable">
+
+    <!--HIDDEN FOR SMALL BASKET-->
+    <input type="hidden" name="ctl00$usname" id="usname" value="GABRIELA">
+    <input type="hidden" name="ctl00$ssid" id="ssid" value="xm3kwo3erfq3sxmffxs31b3j">
+    <input type="hidden" name="ctl00$tid" id="tid" value="1">
+
+    
+
+
+    <header id="header-area" style="margin-bottom:5px;">
+		<!-- Header Top Starts -->
+			<div id="ctl00_topattr1" class="header-top">
+				<div class="container-fluid">
+					<!-- Header Links Starts -->
+						<div class="col-sm-8 col-xs-5">
+                            <div id="Seo" style="z-index: 2001;"></div>
+							<div class="header-links">
+								<ul class="nav navbar-nav pull-left ">
+									<li>
+										<a href="." id="ctl00_HomeLinkButton">
+                                            <span id="ctl00_MenuHome"><i class="fa fa-home" title="" data-original-title="Home"></i><span class="hidden-sm hidden-xs">Acasa</span></span>
+										</a>
+									</li>
+									<li>
+										<a href="wishlist_aspx.html">
+                                            <span id="ctl00_MenuWishList"><i class="fa fa-gift" title="" data-original-title="Wish List"></i><span class="hidden-sm hidden-xs">Lista de dorinte</span></span>
+										</a>
+									</li>
+									<li>
+										<a href="ClientActions_aspx.html" "="">
+                                            <span id="ctl00_MenuAccount"><i class="fa fa-user" title="" data-original-title="My Account"></i><span class="hidden-sm hidden-xs">Cont</span></span>
+										</a>
+                                        
+									</li> 
+									<li>
+										<a href="Basket_aspx.html">
+                                            <span id="ctl00_MenuBasket"><i class="fa fa-shopping-cart" title="" data-original-title="Shopping Cart"></i><span class="hidden-sm hidden-xs">Cos</span></span>
+										</a>
+									</li>
+                                    <li><!--New link in Master page. Displayable if parameter "MYCAR" is set to "YES"-->
+                                        <a id="MyCar" title="Πατήστε για να επιλέξτε το όχημά σας" data-toggle="tooltip" data-placement="bottom" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$MyCar&quot;, &quot;&quot;, false, &quot;&quot;, &quot;/WorkShopRequest.aspx&quot;, false, true))" style="color:blue;"><span class="fa fa-car" aria-hidden="true"></span><span id="ctl00_MyCarText">MyCar</span><span id="ctl00_MyCarInfo" class="badge">0</span></a>
+
+                                    </li>
+									<li>
+										
+                                        
+									</li>
+									
+                                    <li>
+                                        <a id="ctl00_LoginStatus2" class="logincss" href="javascript:__doPostBack('ctl00$LoginStatus2$ctl00','')"><i class="fa fa-sign-out" title="" data-original-title="Logout"></i>
+<span class="hidden-sm hidden-xs">Iesire cont</span></a> 
+                                    </li>
+                                   
+                                    
+								</ul>
+							</div>
+						</div>
+					<!-- Header Links Ends -->
+					<!-- Currency & Languages Starts -->
+						<div id="currency-lang" class="col-sm-4 col-xs-7">
+							<div class="pull-right">
+							<!-- Currency Starts -->
+								
+							<!-- Currency Ends -->
+							<!-- Languages Starts -->
+                                <div class="btn-group welcome_user">
+                                 <span id="ctl00_LabelWelcome">Bine ati venit</span>
+                                 <span id="ctl00_userInfoPane">GABRIELA</span>
+                                 
+                                </div>
+
+								<div class="btn-group">
+									<button class="btn btn-link dropdown-toggle" data-toggle="dropdown">
+										<span id="ctl00_lblLangTxt"><input type="image" name="ctl00$ImageButtonRO" id="ctl00_ImageButtonRO" src="/images/FlagRO.png" style="border-width:0px;"></span>
+										<i class="fa fa-caret-down"></i>
+									</button>
+									<ul class="pull-right dropdown-menu">
+										<li class="text-center">
+											
+                                            <input type="image" name="ctl00$ImageButtonGR" id="ctl00_ImageButtonGR" src="/images/FlagGR.png" style="border-width:0px;">
+										</li>
+										<li class="text-center">
+											
+                                            <input type="image" name="ctl00$ImageButtonGB" id="ctl00_ImageButtonGB" src="/images/FlagGB.png" style="border-width:0px;">
+										</li>
+                                        <li class="text-center">
+                                            
+                                        </li>
+                                        <li class="text-center">
+                                            <input type="image" name="ctl00$ImageButtonRO" id="ctl00_ImageButtonRO" src="/images/FlagRO.png" style="border-width:0px;">
+                                        </li>
+                                        <li class="text-center">
+                                            <input type="image" name="ctl00$ImageButtonBG" id="ctl00_ImageButtonBG" src="/images/FlagBG.png" style="border-width:0px;">
+                                        </li>
+                                        <li class="text-center">
+                                            
+                                        </li>
+
+									</ul>
+								</div>
+							<!-- Languages Ends -->
+                                <div class="btn-group btn-link">
+                                    <span id="ctl00_WorkShopDescr"><i class="fa fa-wrench" title="" data-original-title="Wrench"></i><span class="hidden-sm hidden-xs"></span></span>
+                                </div>
+                                
+
+
+							</div>
+						</div>
+					<!-- Currency & Languages Ends -->
+				</div>
+			</div>
+		<!-- Header Top Ends -->
+		<!-- Starts -->
+			<div id="ctl00_topattr2" class="row">
+			<!-- Main Header Starts -->
+				<div id="mainheader">
+					<div class="row">
+					<!-- Logo Starts -->
+						<div class="col-md-6">
+							<div id="logo">
+								
+                                <div id="ctl00_headerver1" style="table-cell"><div class="img-responsive"><a href="b_body_aspx.html"><img alt="" class="img-responsive" src="http://global06.act.gr/company/images/logo.png" style="padding-bottom: 2%; padding-top:1%; margin-left:12%; max-height:80px;"></a></div></div>
+							</div>
+						</div>
+					<!-- Logo Ends -->
+					<!-- Search Starts -->
+						<div class="col-md-3" id="searchion">
+							<div id="search">
+								<div class="input-group">
+								  
+                                    
+                                  <input name="ctl00$txtSearch" type="text" id="txtSearch" class="form-control input-lg" style="padding:10px !important;">
+								  <span class="input-group-btn">
+									
+                                    <button onclick="__doPostBack('ctl00$GoSearch','')" id="ctl00_GoSearch" class="btn btn-lg">
+                                        <i class="fa fa-search"></i>
+                                    </button>
+                                    
+								  </span>
+								</div>
+							</div>
+                            
+                            </div>
+					<!-- Search Ends -->
+					<!-- Shopping Cart Starts -->
+						<div class="col-md-3" id="cartidi">
+                            <div>
+                                 
+                                    
+                            </div>
+
+							<div id="cart" class="btn-group btn-block">
+                                         
+                                <button id="fastbasket" type="button" data-toggle="dropdown" class="btn btn-block btn-lg dropdown-toggle">
+									<i class="fa fa-shopping-cart"></i>
+									<a id="LabelInfo" href="Basket_aspx.html" style="color:Red;font-weight: bold;">Cosul este gol</a>
+								    <span id="ctl00_BasketNumber" class="badge" style="display:none;"></span>
+                                    <span id="ctl00_numberbask" class="numberbaskst">0</span>
+                                    <i class="fa fa-caret-down"></i>
+								</button>          
+                      
+								<ul class="dropdown-menu pull-right" id="smallbasket">
+															
+								</ul>
+                                
+							</div>
+						</div>
+					<!-- Shopping Cart Ends -->
+					</div>
+				</div>
+			<!-- Main Header Ends -->
+			<!-- Main Menu Starts -->
+				<nav id="main-menu" class="navbar" role="navigation">
+				<!-- Nav Header Starts -->
+					<div class="navbar-header">
+                           <div id="cloned_search" class="col-xs-10"></div>	
+						<button type="button" class="btn btn-navbar navbar-toggle" id="menupanw" data-toggle="collapse" data-target="#openmenubar">
+							<span class="sr-only">Toggle Navigation</span>
+							<i class="fa fa-bars"></i>
+						</button>
+					</div>
+				<!-- Nav Header Ends -->
+				<!-- Navbar Cat collapse Starts -->
+					<div class="collapse navbar-collapse navbar-cat-collapse" id="openmenubar">
+						<ul id="ctl00_menubar" class="nav navbar-nav navigation-menu"><li><a href="b_body_aspx.html">Piese Caroserie</a></li><li><a href="Communication_aspx.html">Comunicare</a></li><li><a href="custompage10_aspx.html">Informatii</a></li></ul>
+					</div>
+				<!-- Navbar Cat collapse Ends -->
+				</nav>
+			<!-- Main Menu Ends -->
+			</div>
+		<!-- Ends -->
+              <div id="ctl00_dyn_slider" style="display:none;">
+
+              </div>
+
+              <div id="scrollerParent">
+                    <div class="thumb-slider marq-slider">
+    	                    <div id="scroller" class="row">
+                                <ul class="bxslider clearfix">	
+                                 <li><h1>Perioada de retur este de maxim 7 zile.Multumim</h1></li>
+                                </ul>
+                            </div>
+                    </div>
+                </div> <!--marq-slider-->
+		</header>
+
+      
+
+ 
+
+    <div class="row">
+        
+
+
+        <div id="ctl00_leftPanel">
+                
+    
+
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto1" id="ctl00_leftPlaceHolder_vPhoto1">
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto2" id="ctl00_leftPlaceHolder_vPhoto2">
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto3" id="ctl00_leftPlaceHolder_vPhoto3">
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto4" id="ctl00_leftPlaceHolder_vPhoto4">
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto5" id="ctl00_leftPlaceHolder_vPhoto5">
+    <input type="hidden" name="ctl00$leftPlaceHolder$vPhoto6" id="ctl00_leftPlaceHolder_vPhoto6">
+    <input type="hidden" name="ctl00$leftPlaceHolder$OneLevelCategories" id="ctl00_leftPlaceHolder_OneLevelCategories">
+    <input type="hidden" name="ctl00$leftPlaceHolder$BringFactories" id="BringFactories" value="1">
+    <input type="hidden" name="ctl00$leftPlaceHolder$EuroTcdExistence" id="EuroTcdExistence" value="euroTcd_Global"> 
+    <input type="hidden" name="ctl00$leftPlaceHolder$ServerSelections" id="ctl00_leftPlaceHolder_ServerSelections" value="|||||">
+    <input type="hidden" name="ctl00$leftPlaceHolder$FailMessage" id="FailMessage" value="The code was not found.">
+
+    <input type="hidden" name="ctl00$leftPlaceHolder$GetUrl" id="GetUrl">
+    <input type="hidden" name="ctl00$leftPlaceHolder$UrlAuth" id="UrlAuth" value="global06.act.gr">
+
+    <div class="filter-box" id="b_body">
+      
+        <div class="fuelux hidden" id="progress_bar">
+            <div class="wizard-example">
+                <div class="wizard" id="MyWizard">
+                    <ul class="steps horizontal">
+                        <li id="StepUno" class="active" data-target="#step1"><span id="BadgeUno" class="badge badge-info">1</span>
+                            <span>Auto</span> 
+                            <span class="chevron"></span>
+                        </li>
+                        <li id="StepDuo" data-target="#step2"><span id="BadgeDuo" class="badge">2</span>
+                            <span>Category</span> 
+                            <span class="chevron"></span>
+                        </li>
+                        <li id="StepTre" data-target="#step3"><span id="BadgeTre" class="badge">3</span>
+                            <span>Mechanical Parts</span> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+       <div class="row">
+
+            <div class="col-md-3" id="firstcolumn">
+                <div id="sidepanel" class="left-filter request-two">
+                     
+                    <h3 class="hidden"><span id="ctl00_leftPlaceHolder_lblSideHeader">CAR</span></h3>
+                     
+                    <div id="act-combos" class="box-pad">
+                        <div id="ctl00_leftPlaceHolder_iPages" style="text-align:center;">
+                                                       <div class="col-md-12" style="padding-left: 0px; margin-bottom:8px; padding-right: 0px;">
+                            	<div class="col-md-6" style="padding-left: 1px; padding-right: 1px;">
+                            <button type="button" class="btn btn-default btn-block" style="font-size:12px; height:35px; border-radius: 0px; border: 1px solid; background-color: rgba(128, 128, 128, 0.56); color: black;" title="Βρίσκεστε στη σέλίδα Μηχανικών Ανταλλακτικών" onclick="window.location.href = '/B_PartsTcd.aspx';">
+                                <span id="ctl00_leftPlaceHolder_lblPartsButton" style="font-weight:bold;"><i class="fa fa-cog"></i> ΜΗΧΑΝΙΚΑ</span> 
+                            </button>
+							    </div>
+								<div class="col-md-6" style="padding-left: 1px;  padding-right: 1px;">
+                            <button type="button" class="btn btn-default btn-block" style="font-size:12px; height:35px; border-radius: 0px; border: 1px solid; background-color: rgba(247, 247, 247, 0.56); color: black!important;" title="Επιλέξτε για Ανταλλακτικά Φανοποιίας" disabled="">
+                                <span id="ctl00_leftPlaceHolder_lblBodyButton" style="font-weight:bold; color: black!important;"><i class="fa fa-car"></i> ΦΑΝΟΠΟΙΙΑ</span>                                 
+                            </button>
+							     </div>
+							</div>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom:0px;">
+                              <div class="row">
+                                 
+                                 <div class="col-sm-12" style="padding: 0px;">
+                                     <span id="car-make-wr2">
+                                            
+
+                                           <select id="ddlCarMake" name="ddlCarMake" class="form-control carmodelselector">
+                                                <option value="-1"> <span id="ctl00_leftPlaceHolder_Label4">Selectare Tip</span></option>
+                                            </select>
+                                                  </span>
+                                 </div>
+                              </div>
+                        </div>
+
+                        <div class="form-group" style="margin-bottom:0px;">
+                              <div class="row">
+                                   
+                                  <div class="col-sm-12 " style="padding: 0px;">
+                                      <span id="car-model-wr2">
+                                            
+
+                                           <select id="ddlCarModel" name="ddlCarModel" class="form-control carmodelselector">
+                                                <option value="-1"> <span id="ctl00_leftPlaceHolder_Label1">Selectare Tip</span></option>
+                                            </select>
+                                           
+                                       </span>
+                                  </div>
+                              </div>
+                        </div>
+
+                        <h5 id="carinfos" class="heading text-center">
+                             <span id="ctl00_leftPlaceHolder_lblCarInfo">Car Data</span>
+                             <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#alltogethercari">
+                              <i class="fa fa-th-large"></i>
+                             </button>
+                        </h5>
+
+                        <div class="photo-holder" id="divCarPhotos" style="visibility: collapse; padding-top: 10px; height: 0px;">
+
+                        <div id="alltogethercari" style="margin-top: -25px;" class="collapse in">
+                       
+                        </div>
+
+                    </div>
+                    </div>  
+                                                       
+
+                </div>
+                 <div id="grigTires">
+                                   
+                            <span id="tireSearchLabel">ΑΝΑΖΗΤΗΣΗ ΕΛΑΣΤΙΚΩΝ</span>
+                    
+                         <div class="input-group" onkeypress="javascript:return WebForm_FireDefaultButton(event, 'ctl00_leftPlaceHolder_FindTire')">
+							 
+                                    
+                                  <input name="ctl00$leftPlaceHolder$tireToFind" type="text" id="tireToFind" class="form-control input" placeholder="Π.χ 2055516">
+                                   
+								  <span class="input-group-btn">								
+                                    <a id="ctl00_leftPlaceHolder_FindTire" class="btn btn-danger" href="javascript:__doPostBack('ctl00$leftPlaceHolder$FindTire','')">
+                                        <i class="fa fa-search"></i>
+                                    </a>
+                                    
+								  </span>
+								
+</div>
+                    <div id="tireDimensions"></div>
+
+                </div>
+                <div class="" id="offerimage1" style="padding-left: 0px; padding-right: 0px;"><a href="." class="thumbnail"><img src="http://global06.act.gr/company/images/offer1.jpg" alt="offer1"></a></div>
+
+            </div>
+
+            <div id="gridadvs" class="col-md-9">
+
+                  <div id="prosforidia">
+                  <div class="col-md-8">
+                    <div id="startbackground"><div id="carouselgeneric" class="carousel slide" style="margin-bottom:10px;" data-ride="carousel"><ol class="carousel-indicators"><li data-target="#carouselgeneric" data-slide-to="0" class="active"></li><li data-target="#carouselgeneric" data-slide-to="1"></li><li data-target="#carouselgeneric" data-slide-to="2"></li></ol><div class="carousel-inner" role="listbox"><div class="item active"><img src="Company/Offers/555.jpg" alt="1"></div><div class="item"><img src="Company/Offers/111.jpg" alt="2"></div><div class="item"><img src="Company/Offers/333.jpg" alt="3"></div></div><a class="left carousel-control" href="." role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="right carousel-control" href="." role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span><span class="sr-only">Next</span></a></div></div>
+                
+                                    
+                      <div id="newitems"></div>
+                 </div> 
+                  <div id="saleproducts" class="col-md-4" style="padding-right:0px;">    </div>
+            </div>
+                 </div>
+               
+          
+            
+            <div class="col-md-3" id="categoryfilling" style="display:none; padding-left: 0px; padding-right: 0px;">
+                <div id="iCategories" class="accrd_cont left-filter">        
+                    
+                    <h3 class="hidden"><span id="ctl00_leftPlaceHolder_lblMainHeader">CATEGORY</span></h3>
+                           
+                    <div id="ctl00_leftPlaceHolder_category">    
+                        <div id="accordion" class="panel-group">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="iResultsWrapper" class="col-md-6" style="display:none; padding-left: 0px; padding-right: 0px;">
+                <div id="divResultsPanel" class="resultspanel2 left-filter">
+                        <div id="resultsHeader">
+                           <h3 class="hidden">
+                            <span id="ctl00_leftPlaceHolder_lblResultsHeader">PARTS</span>
+                           </h3>
+                        </div>
+
+                    <div id="ResultsHeaderControls" class="box-pad">
+                        
+                        <div class="form-group" style="margin-bottom:0px;">
+
+                            <div id="ThOrderBy">
+                                <span id="ctl00_leftPlaceHolder_lblOrderBy">Order By</span>
+                            </div>
+
+                            <div style="float:left; padding-left:0px; padding-right:0px;">
+                                <select id="optOrderBy" class="taj_sel" name="optOrderBy" onchange="optOrderByChange()"><option value="3">Price</option><option value="0">Availability - Factory</option><option value="1">Price - Factory</option><option selected="selected" value="2">Availability - Price</option></select>
+                            </div>
+
+                        </div>
+
+                         
+                                                                 
+                    </div>
+
+
+
+
+                    <div id="results-header">
+                    </div>
+                      
+                    <div id="results_wrapper" style="padding:10px;">
+                        
+                    </div>
+                    
+
+                </div>
+     
+          
+            </div>
+
+        </div>
+    </div>
+
+    <div id="divLinksPanel">
+        
+    </div>
+
+    <input type="hidden" name="ctl00$leftPlaceHolder$baseTitle" id="ctl00_leftPlaceHolder_baseTitle">
+
+     <script type="text/javascript" src="App_Themes/Boot_theme/scripts/jquery.jqtransform.js"></script>
+     <script type="text/javascript" src="App_Themes/Boot_theme/scripts/select2.full.min.js"></script>
+
+    <script type="text/javascript">
+
+        var srvSel = $('[id$="ServerSelections"]').val().split("|");
+        var _CarMake = srvSel[0];
+        var _CarModel = srvSel[1];
+        var _CatId = srvSel[2];
+        var _Descr = srvSel[3];
+        var _Proth = srvSel[4];
+
+
+
+        $(document).ready(function () {
+
+            $.post(
+            '/CarCategoryQuery.ashx',
+            { Action: "GetBodyMakes" },
+            function (data) {
+                var obj = eval(data);
+                var element = $('#ddlCarMake');
+                $(element).empty();
+                $(element).removeAttr('disabled');
+                $(element).addItems(obj);
+                //InitSelection("Make");
+                InitSelectionMake();
+
+            //    $(".carmakeselector").select2({ dropdownCssClass: 'bigdrop' });
+            });
+
+        $.post('/grid.ashx',
+                       { Action: 'getProductBanners', Type: 'Offers', }, function (data) {
+
+                           $('#saleproducts').html(data);
+                         
+                       });
+
+        $.post('/grid.ashx',
+                          { Action: 'getProductBanners', Type: 'NewItems', }, function (data) {
+
+                              $('#newitems').html(data);
+
+                          });
+
+            //fortwma markas
+
+            $('#ddlCarMake').change(function () {
+
+                $("#StepUno").addClass("active");
+                $("#StepUno").removeClass("complete");
+
+                $("#BadgeUno").removeClass("badge-success");
+                $("#BadgeUno").addClass("badge-info");
+
+
+                $("#StepDuo").removeClass("complete");
+                $("#StepDuo").removeClass("active");
+
+                $("#BadgeDuo").removeClass("badge-success");
+                $("#BadgeDuo").removeClass("badge-info");
+
+                $("#StepTre").removeClass("active");
+                $("#StepTre").removeClass("complete");
+
+                $("#BadgeTre").removeClass("badge-success");
+                $("#BadgeTre").removeClass("badge-info");
+
+                $('#results_wrapper').html("");
+                $('#alltogethercari').html("");
+                $('#accordion').html("");
+                
+
+                var make = $('#ddlCarMake option:selected').val();
+                
+
+                RemoveSelectOptions('ddlCarModel');
+             
+                    $.ajax({
+                        url: "/CarCategoryQuery.ashx",
+                        type: "POST",
+                        dataType: "json",
+                        data: {
+                            action: "GetBodyModels",
+                            MakeCode: make
+                        },
+
+                        success: function (data) {
+
+                            $.each(data, function (i, item) {
+                                $('#ddlCarModel').append($('<option>', {
+                                    value: item.Code,
+                                    text: item.Description
+                                }));
+                            });
+
+                            InitSelectionModel();
+
+                            var element = $('#ddlCarModel');
+                            $(element).removeAttr('disabled');
+
+                        //    $(".carmodelselector").select2({ dropdownCssClass: 'bigdrop' });
+                            //$('#ddlCarModel').removeAttr('disabled');
+                        }
+                    })
+                
+                    //InitSelectionModel();
+
+            });
+
+            //fortwma montelo
+
+            $('#ddlCarModel').change(function () {
+
+                var model = $('#ddlCarModel option:selected').val();
+
+
+                if (model != "-1" || model != "" ) {
+                    gridadvs.style.display = "none";
+                    categoryfilling.style.display = "block";
+
+                    FillCarPhotos();
+                    FillAccordion();
+                }
+
+                $("#StepUno").removeClass("active");
+                $("#StepUno").addClass("complete");
+                $("#StepDuo").addClass("active");
+
+                $("#BadgeUno").removeClass("badge-info");
+                $("#BadgeUno").addClass("badge-success");
+                $("#BadgeDuo").addClass("badge-info");
+
+                $("#progress_bar").removeClass("hidden");
+            });
+
+
+            $("#TextBoxIncrement").focus(function () {
+                $('[id$=ButtonIncrement]').removeAttr('disabled');
+            });
+
+        }); //telos document
+
+        function RemoveSelectOptions(s) {
+
+            var select = document.getElementById(s);
+            if (select == null)
+                return;
+            var length = select.options.length;
+            //for (i = 0; i < length; i++) {
+            //    select.options[i] = null;
+            //}
+            for (i = length; i > 0; i--) {
+                select.options[i - 1] = null;
+                var xx = select.options.length;
+            }
+        }
+
+        $.fn.addItems = function (data) {
+            return this.each(function () {
+                var list = this;
+                $.each(data, function (index, itemData) {
+                    var option = new Option(itemData.Description, itemData.Code);
+                    list.add(option);
+                });
+            });
+        };
+
+
+
+   
+
+        function FillCarPhotos() {
+            //var e4 = document.getElementById('ddlCarModel');
+            //var model = e4.options[e4.selectedIndex].value;
+            var model = $('#ddlCarModel option:selected').val();
+
+
+            $.post('/CarCategoryQuery.ashx',
+                { Action: 'GetBodyPhotos', Model: model }, function (data) {
+
+                    $("#alltogethercari").html(data);
+
+                    divCarPhotos.style.visibility = "visible";
+                    divCarPhotos.style.height = "150px";
+                    $('.photo-holder a').lightBox();
+                });
+
+           
+
+            if (_CatId != "") {
+                category_Click2(_CarModel, _CatId, _Descr , _Proth);
+                _CatId = "";
+                _CatId = "";
+            }
+            else
+            {
+                URLWrite();
+            }
+        }
+
+        function FillAccordion() {
+
+            var make = $('#ddlCarMake option:selected').val();
+
+            var model = $('#ddlCarModel option:selected').val();
+
+       
+
+            $.post('/CarCategoryQuery.ashx', {
+                Action: 'GetBodyCategories', Make: make, Model: model
+            }, function (data) {
+				//laz
+				$('#results_wrapper').empty();
+                var element = $('#accordion');
+
+                $(element).html(data);
+
+            });
+
+        }
+
+        $(document).delegate('*[data-toggle="lightbox"]', 'click', function (event) {
+            event.preventDefault();
+
+
+
+            $(this).ekkoLightbox();
+
+            $('[id^="ekkoLightbox"]').find('.leftidi').append($(this).parent().next().find('img').clone().removeAttr('style'));
+            $('[id^="ekkoLightbox"]').find('.rightidi').append($(this).parent().next().next().find('a').clone().removeAttr('href'));
+            $('[id^="ekkoLightbox"]').find('.rightidi').append($(this).parent().next().next().next().find('a').clone().removeAttr('href'));
+        });
+
+        function getParam(name) {
+            name = name.replace(/[\[]/, "\\\[").replace(/[\]]/, "\\\]");
+            var regexS = "[\\?&]" + name + "=([^&#]*)";
+            var regex = new RegExp(regexS);
+            var results = regex.exec(window.location.href);
+            if (results == null)
+                return "";
+            else
+                return results[1];
+        }
+
+        $(document).ready(function () {
+
+            getGridTemplate({ Action: 'GetTemplate' });
+  
+        });
+
+        function category_Click2(model, catId, catDescr, prothema) {
+
+            $("#StepDuo").removeClass("active");
+            $("#StepDuo").addClass("complete");
+            $("#StepTre").addClass("active");
+
+            $("#BadgeDuo").removeClass("badge-info");
+            $("#BadgeDuo").addClass("badge-success");
+            $("#BadgeTre").addClass("badge-info");
+
+            URLWrite(catId, catDescr, prothema);
+
+            iResultsWrapper.style.display = "block";
+
+            displayGrid({ Action: 'GetInitialFromBody', Form1: model, Codefar: catId, Prothema: prothema });
+
+            $(function () {
+                $(".taj_sel").select2({
+                    minimumResultsForSearch: Infinity
+                });
+            });
+        }
+
+        function GetCategoryId() {
+            var wwhref = window.location.href;
+            var category = "";
+            if (wwhref.indexOf('#c=') > 0) {
+                category = wwhref.substring(wwhref.indexOf('#c=') + 3);
+                if (category.indexOf('&') > 0) {
+                    category = category.substring(0, category.indexOf('&'));
+                    if (category.indexOf('#') > 0) {
+                        category = category.substring(0, category.indexOf('#'));
+                    }
+
+                }
+                return category;
+            }
+
+            if (wwhref.indexOf('&c=') > 0) {
+                category = wwhref.substring(wwhref.indexOf('&c=') + 3);
+                if (category.indexOf('&') > 0) {
+                    category = category.substring(0, category.indexOf('&'));
+                    if (category.indexOf('#') > 0) {
+                        category = category.substring(0, category.indexOf('#'));
+                    }
+                }
+            }
+
+            return category;
+        }
+
+
+
+        function InitSelectionMake() {
+            if (_CarMake != "") {
+                
+                var element = $("#ddlCarMake");
+                $(element).val(_CarMake);
+                $(element).change();
+                
+            }
+
+        }
+
+        function InitSelectionModel() {
+
+            if (_CarModel != "" && _CarModel != undefined && _CarModel != null ) {
+                var element = $('#ddlCarModel');
+                $(element).val(_CarModel);
+                $(element).change();
+                _CarModel = "";
+
+                
+            }
+        }
+
+        function URLWrite(catId, catDescr, prothema) {
+
+
+            if (navigator.appName.indexOf("Internet Explorer") != -1) {     //yeah, he's using IE
+                var badBrowser = navigator.appVersion.indexOf("MSIE 9")
+                if (badBrowser != -1) {
+                    return;
+                }
+            }
+
+
+            window.history.pushState("URL", "Title", "/Body"
+                    + "/m" + $("#ddlCarMake").val()      
+                    + "_a" + $("#ddlCarModel").val()                                             
+                    + (catId ? "_c" + catId.toString().trim() : "")
+                    + (catDescr ? "_r" + URLNormalize(catDescr) : "")
+                    + (prothema ? "_p" + prothema.toString().trim() : "")
+                    + ($("#CheckBoxPrices").length > 0 ? ((document.getElementById('CheckBoxPrices').checked) ? "_h" : "") : "")
+                    );
+         
+            document.getElementById('GetUrl').value = "/Body"
+        + "/m" + $("#ddlCarMake").val()
+        + "_a" + $("#ddlCarModel").val()
+        + (catId ? "_c" + catId.toString().trim() : "")
+        + (catDescr ? "_r" + URLNormalize(catDescr) : "")
+        + (prothema ? "_p" + prothema.toString().trim() : "");
+        
+
+            $("form#aspnetForm").attr("action", "/B_Body.aspx");
+        }
+
+        function ChUnPrice() {
+            if (document.getElementById('CheckBoxPrices').checked) {
+
+                //alert(document.getElementById('GetUrl').value);
+                window.location = "http://" + document.getElementById('UrlAuth').value + document.getElementById('GetUrl').value + "_h";
+            }
+            else {
+                window.location = "http://" + document.getElementById('UrlAuth').value + document.getElementById('GetUrl').value + "_f";
+            }
+        }
+
+        function URLNormalize(s) {
+            return s.replace(/[^0-9A-zΑ-ωάέήίόύώ().]/g, " ").replace(/ +/g, "-");
+        }
+
+        //laz
+        (function ($) {
+            $('#results_wrapper').on('click', '.spinner .btn:first-of-type', function () {
+                var input = $(this).parents('.spinner').find('input');
+                $(input).val(parseInt($(input).val(), 10) + 1);
+            });
+            $('#results_wrapper').on('click', '.spinner .btn:last-of-type', function () {
+                var input = $(this).parents('.spinner').find('input');
+
+                var val = parseInt($(input).val(), 10);
+                if (val > 0)
+                    $(input).val(val - 1);
+
+                //$(this).parents('.spinner').find('input').val(parseInt($('.spinner input').val(), 10) - 1);
+            });
+        })(jQuery);
+
+    </script>
+
+
+        </div>
+        <div id="ctl00_rightPanel">
+                
+
+        </div>
+    </div>
+
+    <div id="ctl00_footerhor1" style="display:none; margin-top:20px">
+        
+    </div>
+
+    <a href="javascript:" id="return-to-top" style="z-index:1001;"><i class="fa fa-arrow-up"></i></a>
+
+    <footer id="footer-area">
+		<!-- Footer Links Starts -->
+			<div id="ctl00_linkdiv" class="footer-links">
+			<!-- Container Starts -->
+				<div class="container-fluid">
+					<!-- Information Links Starts -->
+						
+                          <div id="ctl00_footerver1" style="display: none;">
+							
+                           </div>
+						
+					<!-- Information Links Ends -->
+					<!-- My Account Links Starts -->
+						
+                          <div id="ctl00_footerver2" style="table-cell"><div class="col-md-6">
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">Denumire:</span><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GLOBAL </span></span><span style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">AUTO IMPEX SRL</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">Adresa:&nbsp; soseaua Fundeni nr 50 b, Bucuresti Sect 2</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">&nbsp;</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">Telefoane: </span><span style="box-sizing:border-box;font-weight:700"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap"> 0720943429</span></span></span></span></span></p>
+
+<p style="box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><font style=""><font face="Helvetica Neue"><span style="font-size:14px;white-space:pre-wrap"><b>Bogdan Stroe : </b></span></font></font></span><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px; font-weight: 700; white-space: pre-wrap;">0735944002</span></span></p>
+
+<p style="box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="font-family: &quot;Helvetica Neue&quot;; font-size: 14px; font-weight: 700; white-space: pre-wrap;">Gabriella Stroe : 0724759565</span></span></p>
+
+<p dir="ltr" style="box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><br class="gmail-kix-line-break" style="box-sizing:border-box">
+<span style="color:#FFFFFF;"><span style="box-sizing:border-box"><font style=""><span style="font-family:&quot;Helvetica Neue&quot;;font-size:10.5pt;box-sizing:border-box;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</span></font></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">Mail info/ Mail informatii:</span><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp;</span></span></span><a href="mailto:office@globalautomarket.ro" style="box-sizing:border-box;background:0px 0px;text-decoration-line:none"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;text-decoration-line:underline;vertical-align:baseline;white-space:pre-wrap">officeautomarket9@gmail.com</span></span></span></a></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;vertical-align:baseline;white-space:pre-wrap">&nbsp;</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">Orar: Luni- Vineri</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9AM-6PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09.00-18.00</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sambata</span></span></span></span></p>
+
+<p dir="ltr" style="font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;box-sizing:border-box;margin:0pt 0px 7.5pt;line-height:1.2"><span style="color:#FFFFFF;"><span style="box-sizing:border-box"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813" style="box-sizing:border-box"><span style="box-sizing:border-box;font-size:10.5pt;font-family:&quot;Helvetica Neue&quot;;background-color:transparent;font-weight:700;vertical-align:baseline;white-space:pre-wrap">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 9AM-2PM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 09-00-14.00</span></span></span></span></p>
+</div></div>
+						
+					<!-- My Account Links Ends -->					
+					<!-- Customer Service Links Starts -->
+						
+                          <div id="ctl00_footerver3" style="display: none;">  
+							
+                          </div>
+						
+					<!-- Customer Service Links Ends -->
+					<!-- Follow Us Links Starts -->
+				
+                          <div id="ctl00_footerver4" style="table-cell"><div class="col-md-6">
+<p dir="ltr" style="color:rgb(51,51,51);font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;line-height:1.2;margin-top:0pt;margin-bottom:7.5pt"><span style="color:#FFFFFF;"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813"><span style="font-size: 10.5pt; font-family: &quot;Helvetica Neue&quot;; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">C.U.I.:&nbsp;RO42603651</span></span></span></p>
+
+<p dir="ltr" style="color:rgb(51,51,51);font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;line-height:1.2;margin-top:0pt;margin-bottom:7.5pt"><span style="color:#FFFFFF;"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813"><span style="font-size: 10.5pt; font-family: &quot;Helvetica Neue&quot;; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Nr.de ordine În registrul comerţului:&nbsp;J51/269/2020</span></span></span></p>
+
+<p dir="ltr" style="color:rgb(51,51,51);font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;line-height:1.2;margin-top:0pt;margin-bottom:7.5pt"><span style="color:#FFFFFF;"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813"><span style="font-size: 10.5pt; font-family: &quot;Helvetica Neue&quot;; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></span></span></p>
+
+<p dir="ltr" style="color:rgb(51,51,51);font-family:sans-serif,Arial,Verdana,&quot;Trebuchet MS&quot;;font-size:13px;line-height:1.2;margin-top:0pt;margin-bottom:7.5pt"><span style="color:#FFFFFF;"><span id="gmail-docs-internal-guid-40b429bf-3d09-2487-1d7a-81a27ffb8813"><span style="font-size: 10.5pt; font-family: &quot;Helvetica Neue&quot;; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">Banca: Unicredit Bank</span><br class="gmail-kix-line-break">
+<span style="font-size: 10.5pt; font-family: &quot;Helvetica Neue&quot;; background-color: transparent; vertical-align: baseline; white-space: pre-wrap;">&nbsp;</span></span></span></p>
+
+<div><span style="color:#FFFFFF;"><span style="background-color: transparent; font-family: &quot;Helvetica Neue&quot;; font-size: 10.5pt; white-space: pre-wrap;">Cont bancar: RO91BACX0000002033936001</span> </span></div>
+</div></div>
+				
+					<!-- Follow Us Links Ends -->
+					<!-- Contact Us Starts -->
+					
+                          <div id="ctl00_footerver5" style="display: none;"> 
+							
+                          </div>
+					
+					<!-- Contact Us Ends -->
+				</div>
+			<!-- Container Ends -->
+			</div>
+		<!-- Footer Links Ends -->
+		<!-- Copyright Area Starts -->
+			<div id="ctl00_copyrati" class="copyright">
+			<!-- Container Starts -->
+				<div class="container-fluid">
+				<!-- Starts -->
+                <p class="pull-left">
+						&nbsp; Developed by <a href="http://www.actae.gr/" target="_blank">ACT SA</a>
+	      		</p>
+                 <div id="ctl00_footerhor2" style="display: none;">
+					
+				<!-- Ends -->
+				<!-- Payment Gateway Links Starts -->	
+                 </div>
+				<!-- Payment Gateway Links Ends -->
+		     </div>
+			<!-- Container Ends -->
+			</div>
+		<!-- Copyright Area Ends -->
+		</footer>
+
+        
+
+    </form>
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    <script src="App_Themes/Boot_theme/scripts/B_Layout.min.js" type="text/javascript"></script>
+    <script src="scripting/activatables.min.js" type="text/javascript"></script>
+    <script src="scripting/jquery.tipTip.min.js" type="text/javascript"></script>
+    <script src="scripting/jquery.timers-1.2.js" type="text/javascript"></script>
+    <script src="scripting/jquery.lightbox-0.5.min.js" type="text/javascript"></script>
+    <script src="scripting/tinybox.js" type="text/javascript"></script>
+    <script src="scripting/galleria-1.3.1.min.js" type="text/javascript"></script>
+    <script src="App_Themes/Boot_theme/scripts/jquery.bxslider.min.js" type="text/javascript"></script>
+      <script src="App_Themes/Boot_theme/scripts/jquery.app.js" type="text/javascript"></script>
+    <script src="App_Themes/Boot_theme/slick/slick.min.js"></script>
+    <script src="App_Themes/Boot_theme/scripts/jquery.bootstrap-touchspin.min.js" type="text/javascript"></script>
+    <script src="App_Themes/Boot_theme/ekkolightbox/ekko-lightbox.min.js"></script>
+    <script type="text/javascript">
+        $.post('/CarCategoryQuery.ashx', {
+            Action: 'SeoManagement'
+        }, function (data) {
+
+            var element = $('#Seo');
+
+            $(element).html(data);
+
+        });
+
+        $('#ctl00_SearchTypeVal').on('change', function () {
+            var txt1 = $('#ctl00_SearchTypeText').val();
+            var txt2 = $('#ctl00_SearchTypeVal input:checked').val();
+            $('#txtSearch').value = txt1 + ' ' + txt2;
+            $('#txtSearch').attr("placeholder", txt1 + ' ' + txt2);
+        });
+    </script>
+
+
+</body>
